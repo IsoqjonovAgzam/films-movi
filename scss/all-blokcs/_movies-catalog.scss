@@ -1,0 +1,24 @@
+
+.grig-year::before {
+  content: "";
+  display: flex;
+  align-items: center;
+  background-image: url(../img/black-calendar-page.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: contain;
+  margin-right: 3px;
+}
+.rating::before {
+  content: "";
+  display: flex;
+  background-image: url(../img/star-icon.png);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-size: contain;
+  margin-right: 6px;
+}
